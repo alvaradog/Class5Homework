@@ -10,5 +10,17 @@ package real.world.object3;
  * @author alvar
  */
 public class Car extends Vehicle{
+    //A property common to all cars, but not all vehicles
+    private int wheelCount;
+
+    public int getWheelCount() {
+        return wheelCount;
+    }
+
+    public void setWheelCount(int wheelCount) {
+        this.wheelCount = wheelCount;
+    }
+    
+    
     
 }

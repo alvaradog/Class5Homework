@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package real.world.object2;
 
-/**
- *
- * @author alvar
- */
 public abstract class Vehicle {
     
+    public abstract void accelerate();
+    public abstract String getMake();
+    public abstract void setMake(String make);
+    public abstract String getModel();
+    public abstract void setModel(String model);
 }

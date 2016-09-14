@@ -2,7 +2,7 @@
 package real.world.object1;
 
 public class ElectricCar extends Car{
-    
+    //Property common to all electric cars, but not all cars
     private int lithiumIonBatterySize;
 
     public int getLithiumIonBatterySize() {
@@ -13,6 +13,7 @@ public class ElectricCar extends Car{
         this.lithiumIonBatterySize = lithiumIonBatterySize;
     }
     
+    //Method commong to all electric cars, but not all cars
     public final void beginCharge(){
         System.out.println("Electric vehicle is charging");
     }

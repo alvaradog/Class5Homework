@@ -1,14 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package real.world.object2;
 
-/**
- *
- * @author alvar
- */
 public class ElectricCar extends Car{
+    private int lithiumIonBatterySize;
+
+    public int getLithiumIonBatterySize() {
+        return lithiumIonBatterySize;
+    }
+
+    public void setLithiumIonBatterySize(int lithiumIonBatterySize) {
+        this.lithiumIonBatterySize = lithiumIonBatterySize;
+    }
     
+    public final void beginCharge(){
+        System.out.println("Electric vehicle is charging");
+    }
 }
