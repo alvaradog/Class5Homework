@@ -4,6 +4,7 @@ package real.world.object1;
 public abstract class Car implements Vehicle{
     // Common instance property inherited by all sub-classes
    private String make;
+   private String model;
 
    @Override
     public String getModel() {
@@ -14,7 +15,6 @@ public abstract class Car implements Vehicle{
     public void setModel(String model) {
         this.model = model;
     }
-   private String model;
 
    @Override
     public String getMake() {
